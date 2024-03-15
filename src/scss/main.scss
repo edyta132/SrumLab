@@ -1,3 +1,5 @@
-body {
-  background-color: #bada55;
-}
+@import "generic/reset";
+
+@import "settings";
+@import "elements/logo";
+@import "elements/header";

@@ -1,0 +1,58 @@
+.header-cnt {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px 100px;
+    background-color: #292F32;
+
+}
+
+
+.menu {}
+
+.menu-list {
+    height: 100%;
+    display: flex;
+    gap: 95px;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.menu-item {}
+
+.menu-link {
+    color: white;
+    font-size: 16px;
+    transition: 0.1s;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    text-decoration: none;
+    font-family: $font-main;
+
+}
+
+.menu-link:hover {
+    color: $color-screen-heading;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
+
+.logo {
+    font-family: Charmonman;
+}
+
+
+
+#first {
+    font-weight: 100;
+    color: white;
+    font-size: 30px;
+}
+
+#second {
+    color: #E58A20;
+    font-weight: 700;
+    font-size: 30px;
+
+}
